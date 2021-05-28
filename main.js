@@ -1,9 +1,3 @@
-// When a user selects a message option and then clicks the “Receive Message” button,
-//the user sees a random message from the list of possible messages for that category
-// When the message appears, the mediation icon disappears from the message area
-// need: access to
-    // radio button1, radio button 2, receive message button, meditation image,
-    // display messsage
 var receiveMessageBtn = document.querySelector(".message-button");
 var affirmationBtn = document.querySelector(".radio-button1");
 var mantraBtn = document.querySelector(".radio-button2");
@@ -40,7 +34,6 @@ function generateDisplayMessage() {
 
 function displayName() {
   var username = loginName.value
-  //replace the inner text of greeting with new interpolated statement
   greeting.innerText = `Hello, ${username}! Great job practicing self care today.`
   unhideMainPage();
   hideLoginPage();
