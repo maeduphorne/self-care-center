@@ -26,7 +26,7 @@ body {
   display:block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  /* width: 50%; */
 }
 
 h1 {
@@ -34,9 +34,19 @@ h1 {
  color: #ffffff;
  font-size: 25px;
  text-align: center;
+ margin-bottom: 85px;
+ margin-top: 30px;
 }
 
-.message-question {
+.greeting {
+ font-family:'Quicksand', sans-serif;
+ color: #ffffff;
+ text-align: center;
+ font-size: 15px;
+ margin-bottom: 10px;
+}
+
+.subhead {
  font-family:'Quicksand', sans-serif;
  color: #ffffff;
  text-align: center;
@@ -48,6 +58,8 @@ h1 {
  text-align: center;
  color: #000000;
  margin-top: 2px;
+ width: 550px;
+ height: 85px;
 }
 
 .radio-button1 {
@@ -74,6 +86,11 @@ h1 {
   padding-top: 50px;
 }
 
+.display-message{
+  font-family:'Quicksand', sans-serif;
+  text-align: center;
+}
+
 .selection-section {
   background: #ffffff;
   width: 600px;
@@ -94,4 +111,27 @@ h1 {
 
 .hidden {
   display: none;
+}
+
+.login-form {
+  background: #ffffff;
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+}
+
+#login-field {
+  font-family:'Quicksand', sans-serif;
+  margin: 20px
+}
+
+.login-button {
+  font-family:'Quicksand', sans-serif;
+  text-align: center;
+  color: #ffffff;
+  background: #134d71;
+  margin-top: 18px;
+  border-radius: 5px;
+  width: 175px;
+  margin-bottom: 5px;
 }

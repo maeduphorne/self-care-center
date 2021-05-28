@@ -8,8 +8,10 @@
     <header>
       <h1 class="header">✨ Self Care Center ✨</h1>
     </header>
-    
-      <h2 class="message-question">Which type of message?</h2>
+
+    <section class="main-page hidden">
+      <h2 class="greeting">Hello! Great job practicing self care today.</h2>
+      <h2 class="subhead">Which type of message?</h2>
       <section class="selection-section center">
         <input class="radio-button1" type="radio" name="message" value="affirmation"/> affirmation
         <input class="radio-button2" type="radio" name="message" value="mantra"/> mantra
@@ -19,9 +21,16 @@
         <img class="meditation-image center" src="assets/meditate.svg" alt="Meditation gong">
         <p class="display-message hidden" >Insert message here!</p>
       </section>
+    </section>
 
-
-
+    <section class="login-page">
+      <h2 class="subhead">🧘‍♀️Login🧘‍♂️</h2>
+      <section class="login-form center">
+          <input id="login-field" type="text" name="login-name" placeholder="Your name here">
+          <!-- <input type="text" name="poster-title" id="poster-title" placeholder="Growth Mindset"> -->
+          <input class="login-button" type="submit" value="Login">
+      </section>
+    </section>
 
     <script type="text/javascript" src="main.js"></script>
     <script src="./assets/arrays.js"></script>
