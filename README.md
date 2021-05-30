@@ -40,7 +40,7 @@
 
 ## Deployed Page
 
-Visit the published Self Care Center page [here] (https://maeduphorne.github.io/self-care-center/)
+Visit the published Self Care Center page [here](https://maeduphorne.github.io/self-care-center/)
 
 ## Possible Future Extensions
 
@@ -52,11 +52,11 @@ Visit the published Self Care Center page [here] (https://maeduphorne.github.io/
 
 ## Contributors
 
-- [Mae Duphorne] (https://github.com/maeduphorne)
+- [Mae Duphorne](https://github.com/maeduphorne)
 
 ## Sources
   - [MDN](http://developer.mozilla.org/en-US/)
   - [W3Schools](https://www.w3schools.com/)
 
 ## Project Specs
-- The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/self-care-center.html).
+- The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/self-care-center.html)
